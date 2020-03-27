@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  padding: 5px;
+  text-align: center;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 20vw;
+  float: right;
+  background-color: #f0f0f0;
+}
+
+.sidebar .top {
+  flex: auto;
+  box-shadow: inset 0 0 1em gold, 0 0 1em gold;
+  padding: 0 15px 0 15px;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.sidebar .top label {
+  flex: 1 auto;
+  font-size: smaller;
+}
+
+.sidebar .bottom {
+  flex: auto;
+  box-shadow: inset 0 0 1em lightskyblue, 0 0 1em lightskyblue;
+  padding: 0 15px 0 15px;
+  height: 20vh;
+  font-size: smaller;
+}
+
+.sidebar p {
+  font-size: smaller;
+  flex: 1 auto;
+}
+
+.nodes-label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+
+.nodes-checkbox {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+
+.legend {
+  font-size: small;
+  padding-bottom: 15px;
+}
+
+.legend .box {
+  display: inline-block;
+  margin-left: 20px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.legend .label {
+  font-style: italic;
+  padding: 5px;
+  margin: 5px
+}
+
+.clear-button {
+  margin-bottom: 10px;
+  height: 30px;
+}
+
